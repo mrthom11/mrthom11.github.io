@@ -13,10 +13,25 @@
   	<div class="jumbotron jumbotron-fluid">
   		<div class="container">
     		<h1 class="display-4">Lepido</h1>
-    		<p class="lead">Immergiti nei panni di Lepido, giovane romano di umili origini chiamato a scalare il cursus honorum. Riuscirai a diventare il prossimo imperatore di Roma?</p>
-    		<button type="button" class="btn btn-primary">Scoprilo ora</button>
-  		</div>
+    		<p class="lead">Immergiti nei panni di Lepido, giovane romano di umili origini chiamato a scalare il cursus honorum. Riuscirai a diventare il prossimo imperatore di Roma?</p>    
+        <button type='button'class="btn btn-primary" onclick="document.getElementById('demo').style.display='block'" >scoprilo ora</button>   
+  		</div>   
 	</div>
+  <ol id='demo' style='display:none'>
+    <li>ti verranno proposte due scelte, potrai sceglierne solo una</li>
+    <li>vi è una sola scelta giusta,tutte le altre sono sbagliate</li>
+    <li>il gioco continua anche se clicchi su una scelta sbagliata, scoprirai solo alla fine se sarai riuscito a diventare imperatore</li>
+      <button type='button'class="btn btn-primary" onclick="document.getElementById('storia').style.display='block'" >vai avanti</button> 
+  </ol>
+  <p id='storia' style='display:none'>Lepido nasce nel 90aC a Roma da una famiglia benestante, il padre aveva una bottega. Si dedicò a studi <button type='button'class="btn btn-primary" onclick="document.getElementById('choices').style.display='block'" >vai avanti</button> </p>
+    <div class="card"id='choices'style='display:none'>
+      <div class="card-body">
+        <h5 class="card-title">Filosofici</h5>
+        <button type='button' class="btn btn-primary">Go somewhere</button>
+        <h5 class="card-title">Giuridici</h5>
+        <button type='button' class="btn btn-primary">Go somewhere</button>
+  </div>
+</div>
   </body>
   	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
