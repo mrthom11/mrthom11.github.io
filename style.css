@@ -12,9 +12,33 @@ p {
 	background-color: black;
 	text-align: center;
 }
-#demo{
+#regole{
 	color:black;
+	text-align: center;
+	align-self: center;
 }
 #storia{
 	color:black;
+}
+
+
+#studi{
+
+	height: 764px;
+	background-image: url("studi.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.card{
+	background-color: transparent;
+}
+
+button{
+	text-align: center;
+	color: white;
+}
+
+#scelta{
+	padding: 70px;
 }
