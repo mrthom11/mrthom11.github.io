@@ -3,6 +3,11 @@ h1 {
 	color: white;
 }
 
+
+nav{
+	background-color: black;
+}
+
 p {
 	text-align: center;
 	color: white;
@@ -18,9 +23,10 @@ p {
 	align-self: center;
 }
 #storia{
-	color:black;
-	font-family: helvetica;
+	color:white;
+	font-family: "Times New Roman";
 	font-size: 150%;
+	background-color: black;
 }
 
 
