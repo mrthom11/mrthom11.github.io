@@ -12,10 +12,10 @@
 </head>
   <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  	<a class="navbar-brand" href="#">Lepido</a>
-  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    	<span class="navbar-toggler-icon"></span>
-  	</button>
+    <a class="navbar-brand" href="#">Lepido</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item active">
@@ -66,10 +66,22 @@
     <button type="button" class="btn btn-outline-light btn-block">Filosofici</button>
    </div>
    <div class="col-sm-6">
-    <button type="button" class="btn btn-outline-light btn-block">Giuridici</button>
+    <button type="button" class="btn btn-outline-light btn-block" id="giuridici" onclick="myFunction()">Giuridici</button>
   </div>
   </div>
-  
+  </div>
+</div>
+ <div id="carriera" style="display: none;">
+  <h1 id="storia"><b><i>Una volta diventato avvocato decide di </i></b></h1>
+    <div id="scelta" class="container-fluid">
+      <div class="row">
+   <div class="col-sm-6" style="text-align: center;">
+    <button type="button" class="btn btn-outline-light btn-block">Seguire la carriera politica</button>
+   </div>
+   <div class="col-sm-6">
+    <button type="button" class="btn btn-outline-light btn-block">Esercitare la professione</button>
+  </div>
+  </div>
   </div>
 </div>
   </div>
