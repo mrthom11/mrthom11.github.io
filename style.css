@@ -32,7 +32,7 @@ p {
 
 #studi{
 
-	height: 764px;
+	height: 420px;
 	background-image: url("studi.jpg");
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -55,4 +55,14 @@ button{
 
 #scelta{
 	padding: 70px;
+}
+
+#cornice{
+	background-image: url("cornice.jpg");
+	padding-top: 50px 
+	height: 300px;
+}
+
+#intermezzo{
+	height: 200px;
 }
