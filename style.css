@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h1 {
 	text-align: center;
 	color: white;
@@ -65,4 +66,73 @@ button{
 
 #intermezzo{
 	height: 200px;
+=======
+h1 {
+	text-align: center;
+	color: white;
+}
+
+
+nav{
+	background-color: black;
+}
+
+p {
+	text-align: center;
+	color: white;
+}
+
+.jumbotron {
+	background-color: black;
+	text-align: center;
+}
+#regole{
+	color:black;
+	text-align: center;
+	align-self: center;
+}
+#storia{
+	color:white;
+	font-family: "Times New Roman";
+	font-size: 150%;
+	background-color: black;
+}
+
+
+#studi{
+
+	height: 420px;
+	background-image: url("studi.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#carriera{
+	height: 764px;
+	background-image: url(studi.jpg);
+	background-size: contain;
+	background-repeat:no-repeat;
+}
+
+.card{
+	background-color: transparent;
+}
+
+button{
+	text-align: center;
+	color: white;
+}
+
+#scelta{
+	padding: 70px;
+}
+
+#cornice{
+	background-image: url("cornice.jpg");
+	padding-top: 50px 
+	height: 300px;
+}
+
+#intermezzo{
+	height: 200px;
+>>>>>>> 3f156d088fa32341bf81bd6285457fc2be5b3562
 }
