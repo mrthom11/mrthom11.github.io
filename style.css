@@ -37,7 +37,13 @@ p {
 	background-size: contain;
 	background-repeat: no-repeat;
 }
-#carriera{
+#giuridici{
+	height: 764px;
+	background-image: url(studi.jpg);
+	background-size: contain;
+	background-repeat:no-repeat;
+}
+#filosofici{
 	height: 764px;
 	background-image: url(studi.jpg);
 	background-size: contain;
