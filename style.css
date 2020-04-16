@@ -29,7 +29,6 @@ p {
 	background-color: black;
 }
 
-
 #studi{
 
 	height: 420px;
@@ -44,6 +43,18 @@ p {
 	background-repeat:no-repeat;
 }
 #filosofici{
+	height: 764px;
+	background-image: url(studi.jpg);
+	background-size: contain;
+	background-repeat:no-repeat;
+}
+#avvocato{
+	height: 764px;
+	background-image: url(studi.jpg);
+	background-size: contain;
+	background-repeat:no-repeat;
+}
+#politica{
 	height: 764px;
 	background-image: url(studi.jpg);
 	background-size: contain;
@@ -66,7 +77,7 @@ button{
 #cornice{
 	background-image: url("cornice.jpg");
 	padding-top: 50px 
-	height: 300px;
+	heigth: 300px;
 }
 
 #intermezzo{
