@@ -1,3 +1,10 @@
+function intermezzo(){
+	var intermezzo = document.getElementById("intermezzo");
+	if (intermezzo.style.display == "none") {
+		intermezzo.style.display = "block";
+	}
+}
+
 function godown(){
   window.scrollTo(0,document.body.scrollHeight);
 }
@@ -9,9 +16,11 @@ function giuridici() {
 }
 function filosofici(){
 	var y = document.getElementById("filosofici");
-	if (y.style.display==="none"){
-		y.style.display ="block";
+	if (y.style.display == "none"){
+		y.style.display = "block";
+		intermezzo();
 	}
+
 }
 function avvocato(){
 	var z = document.getElementById("avvocato");
@@ -29,3 +38,4 @@ function politica(){
 
 	}
 }
+
