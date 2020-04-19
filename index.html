@@ -6,7 +6,7 @@
   <title>Avventura testuale</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <style>
-    @import url(style.css)
+    @import url(style.css);
   </style>
   <script type="text/javascript" src="script.js"></script>
 </head>
@@ -44,7 +44,7 @@
         <button type='button'class="btn btn-primary" onclick="document.getElementById('regole').style.display='block'" >Scoprilo ora</button>   
       </div>   
   </div>
-<div id="regole" style= "display:none;">
+<div id="regole" style="display: none;">
   <ol>
     <li>Ti verranno proposte due scelte, potrai sceglierne solo una</li>
     <li>Il successo di Lepido dipende solo dalle tue scelte, scegli con cura!</li>
@@ -52,66 +52,55 @@
   </ol>
   <button type='button'class="btn btn-primary" onclick="document.getElementById('studi').style.display='block'" >Vai avanti</button>
  </div>
- <div id="studi" style="display: none;" onclick="godown()">
+ <div id="studi" style="display: none;">
   <h1 id="storia"><b><i>Lepido nasce nel 90 a.C a Roma da una famiglia benestante. Tuo padre ha una bottega e ti permette di scegliere il tuo percorso di studi. Quale scegli? </i></b></h1>
     <div id="scelta" class="container-fluid">
       <div class="row">
    <div class="col-sm-6" style="text-align: center;">
-    <button type="button" class="btn btn-outline-light btn-block" onclick="filosofici()" onclick="godown()" onclick="intermezzo()">Filosofici</button>
+    <button type="button" class="btn btn-outline-light btn-block" onclick="filosofici()" id="btn1">Filosofici</button>
    </div>
    <div class="col-sm-6">
-    <button type="button" class="btn btn-outline-light btn-block"  onclick="giuridici()" onclick="godown()" onclick="intermezzo()">Giuridici</button>
+    <button type="button" class="btn btn-outline-light btn-block"  onclick="giuridici()" id="btn2">Giuridici</button>
   </div>
   </div>
   </div>
 </div>
- <div id="intermezzo">
-  <div id="cornice">
-    <img src="cornice.jpg">
+<div id="filosofici" style="display: none;">
+  <h1 id="storia"><b><i>Per gli studi filosofici cambia città e si reca a  </i></b></h1>
+    <div id="scelta" class="container-fluid">
+      <div class="row">
+   <div class="col-sm-6" style="text-align: center;">
+    <button type="button" class="btn btn-outline-light btn-block" onclick="napoli()" id="btn3">Napoli</button>
+   </div>
+   <div class="col-sm-6">
+    <button type="button" class="btn btn-outline-light btn-block" onclick="atene()" id="btn4">Atene</button>
   </div>
- </div>
+  </div>
+  </div>
+</div>
+  </div>
  <div id="giuridici" style="display: none;">
   <h1 id="storia"><b><i>Una volta diventato avvocato decide di </i></b></h1>
     <div id="scelta" class="container-fluid">
       <div class="row">
    <div class="col-sm-6" style="text-align: center;">
-    <button type="button" class="btn btn-outline-light btn-block" onclick="politica()">Seguire la carriera politica</button>
+    <button type="button" class="btn btn-outline-light btn-block" onclick="politica()"id="btn5">Seguire la carriera politica</button>
    </div>
    <div class="col-sm-6">
-    <button type="button" class="btn btn-outline-light btn-block" onclick="avvocato()">Esercitare la professione</button>
+    <button type="button" class="btn btn-outline-light btn-block" onclick="avvocato()" id="btn6">Esercitare la professione</button>
   </div>
   </div>
   </div>
 </div>
- <div id="filosofici" style="display: none;">
-  <h1 id="storia"><b><i>Per gli studi filosofici cambia città e si reca a  </i></b></h1>
-    <div id="scelta" class="container-fluid">
-      <div class="row">
-   <div class="col-sm-6" style="text-align: center;">
-    <button type="button" class="btn btn-outline-light btn-block" onclick="napoli()" onclick="godown()">Napoli</button>
-   </div>
-   <div class="col-sm-6">
-    <button type="button" class="btn btn-outline-light btn-block" onclick="atene()" onclick="godown()">Atene</button>
-  </div>
-  </div>
-  </div>
-</div>
-  </div>
- </div>    
- <div id="intermezzo">
-    <div id="cornice">
-      <img src="cornice.jpg">
-    </div>
-  </div>
  <div id="politica" style="display: none;">
   <h1 id="storia"><b><i>Una volta intrapreso il cursus honorum assume il ruolo di</i></b></h1>
     <div id="scelta" class="container-fluid">
       <div class="row">
    <div class="col-sm-6" style="text-align: center;">
-    <button type="button" class="btn btn-outline-light btn-block" onclick="godown()" onclick="consolato()">Console</button>
+    <button type="button" class="btn btn-outline-light btn-block"  onclick="consolato()">Console</button>
    </div>
    <div class="col-sm-6">
-    <button type="button" class="btn btn-outline-light btn-block" onclick="godown()" onclick="pretura()">Pretore</button>
+    <button type="button" class="btn btn-outline-light btn-block"  onclick="pretura()">Pretore</button>
   </div>
   </div>
   </div>
