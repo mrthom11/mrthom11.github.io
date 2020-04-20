@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -50,17 +51,17 @@
     <li>Il successo di Lepido dipende solo dalle tue scelte, scegli con cura!</li>
     <li>Il gioco continua anche se clicchi su una scelta sbagliata, scoprirai solo alla fine se sarai riuscito a diventare imperatore</li> 
   </ol>
-  <button type='button'class="btn btn-primary" onclick="document.getElementById('studi').style.display='block'" >Vai avanti</button>
+  <button type='button'class="btn btn-primary" onclick="studi()" >Vai avanti</button>
  </div>
  <div id="studi" style="display: none;">
   <h1 id="storia"><b><i>Lepido nasce nel 90 a.C a Roma da una famiglia benestante. Tuo padre ha una bottega e ti permette di scegliere il tuo percorso di studi. Quale scegli? </i></b></h1>
     <div id="scelta" class="container-fluid">
       <div class="row">
    <div class="col-sm-6" style="text-align: center;">
-    <button type="button" class="btn btn-outline-light btn-block" onclick="filosofici()" id="btn1">Filosofici</button>
+    <button type="button" class="btn btn-outline-light btn-block" onclick="filosofici()">Filosofici</button>
    </div>
    <div class="col-sm-6">
-    <button type="button" class="btn btn-outline-light btn-block"  onclick="giuridici()" id="btn2">Giuridici</button>
+    <button type="button" class="btn btn-outline-light btn-block"  onclick="giuridici()">Giuridici</button>
   </div>
   </div>
   </div>
@@ -70,24 +71,50 @@
     <div id="scelta" class="container-fluid">
       <div class="row">
    <div class="col-sm-6" style="text-align: center;">
-    <button type="button" class="btn btn-outline-light btn-block" onclick="napoli()" id="btn3">Napoli</button>
+    <button type="button" class="btn btn-outline-light btn-block" onclick="napoli()">Napoli</button>
    </div>
    <div class="col-sm-6">
-    <button type="button" class="btn btn-outline-light btn-block" onclick="atene()" id="btn4">Atene</button>
+    <button type="button" class="btn btn-outline-light btn-block" onclick="atene()">Atene</button>
   </div>
   </div>
   </div>
 </div>
+  </div>
+  <div id="napoli" style="display: none;">
+    <h1 id="storia"><b><i>Finiti gli studi </i></b></h1>
+      <div id="scelta" class="container-fluid">
+        <div class="row">
+     <div class="col-sm-6" style="text-align: center;">
+      <button type="button" class="btn btn-outline-light btn-block" onclick=fine()>Diventa docente di filosofia e retorica</button>
+     </div>
+     <div class="col-sm-6">
+      <button type="button" class="btn btn-outline-light btn-block" onclick=fine()>Scopre la passione per la scrittura e scrive trattati filosofici</button>
+    </div>
+    </div>
+    </div>
+  </div>
+  <div id="atene" style="display: none;">
+    <h1 id="storia"><b><i>Finiti gli studi</i></b></h1>
+      <div id="scelta" class="container-fluid">
+        <div class="row">
+     <div class="col-sm-6" style="text-align: center;">
+      <button type="button" class="btn btn-outline-light btn-block" onclick=fine()>Torna a Roma</button>
+     </div>
+     <div class="col-sm-6">
+      <button type="button" class="btn btn-outline-light btn-block" onclick=fine()>Scopre la passione per la scrittura e scrive trattati filosofici</button>
+    </div>
+    </div>
+    </div>
   </div>
  <div id="giuridici" style="display: none;">
   <h1 id="storia"><b><i>Una volta diventato avvocato decide di </i></b></h1>
     <div id="scelta" class="container-fluid">
       <div class="row">
    <div class="col-sm-6" style="text-align: center;">
-    <button type="button" class="btn btn-outline-light btn-block" onclick="politica()"id="btn5">Seguire la carriera politica</button>
+    <button type="button" class="btn btn-outline-light btn-block" onclick="politica()">Seguire la carriera politica</button>
    </div>
    <div class="col-sm-6">
-    <button type="button" class="btn btn-outline-light btn-block" onclick="avvocato()" id="btn6">Esercitare la professione</button>
+    <button type="button" class="btn btn-outline-light btn-block" onclick="avvocato()">Esercitare la professione</button>
   </div>
   </div>
   </div>
@@ -110,10 +137,10 @@
     <div id="scelta" class="container-fluid">
       <div class="row">
    <div class="col-sm-6" style="text-align: center;">
-    <button type="button" class="btn btn-outline-light btn-block" onclick="redd()" onclick="godown()">Redditizia</button>
+    <button type="button" class="btn btn-outline-light btn-block" onclick="redd()">Redditizia</button>
    </div>
    <div class="col-sm-6">
-    <button type="button" class="btn btn-outline-light btn-block" onclick="nointeresse()" onclick="godown()">Di scarso interesse</button>
+    <button type="button" class="btn btn-outline-light btn-block" onclick="nointeresse()">Di scarso interesse</button>
   </div>
   </div>
   </div>
@@ -124,4 +151,4 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
+</body
