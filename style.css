@@ -61,7 +61,18 @@ p {
 	background-size: contain;
 	background-repeat:no-repeat;
 }
-
+#napoli{
+	height: 350px;
+	background-image: url(studi.jpg);
+	background-size: contain;
+	background-repeat:no-repeat;
+}
+#atene{
+	height: 350px;
+	background-image: url(studi.jpg);
+	background-size: contain;
+	background-repeat:no-repeat;
+}
 .card{
 	background-color: transparent;
 }
