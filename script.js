@@ -1,6 +1,7 @@
 let a=0;
 let b=0;
 let c=0;
+let d=0;
 function studi(){
 	var x=document.getElementById("studi");
 	if(x.style.display==="none"){
@@ -56,6 +57,27 @@ function politica(){
 	b+=1;
 	}
 }
+function consolato(){
+	var x = document.getElementById("consolato");
+	if (x.style.display==="none"&& d!==1){
+    x.style.display ="block";
+	window.scrollTo(0,document.body.scrollHeight);
+	d+=1;
+	}
+}
+function pretura(){
+	var x = document.getElementById("pretura");
+	if (x.style.display==="none"&& d!==1){
+	x.style.display ="block";
+	window.scrollTo(0,document.body.scrollHeight);
+	d+=1;
+	}
+}
 function fine(){
-	alert("Mi spiace ma non sarai tu il nuovo imperatore")
+	alert("Mi spiace ma non sarai tu il nuovo imperatore");
+	window.location.href="loser.html";
+}
+function win(){
+	alert("complimenti sarai tu il nuovo imperatore");
+	window.location.href="winner.html";
 }
