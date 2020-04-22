@@ -22,7 +22,7 @@ p {
 	text-align: center;
 	align-self: center;
 }
-#storia{
+#storia, .storia{
 	color:white;
 	font-family: "Times New Roman";
 	font-size: 150%;
@@ -67,7 +67,7 @@ p {
 	background-size: contain;
 	background-repeat:no-repeat;
 }
-#atene{
+#atene, #nointeresse, #redd, #pretura, #consolato{
 	height: 350px;
 	background-image: url(studi.jpg);
 	background-size: contain;
@@ -82,7 +82,7 @@ button{
 	color: white;
 }
 
-#scelta{
+.scelta{
 	padding: 70px;
 }
 
