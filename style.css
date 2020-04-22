@@ -21,6 +21,7 @@ p {
 	color:black;
 	text-align: center;
 	align-self: center;
+	padding-bottom: 10px;
 }
 #storia, .storia{
 	color:white;
@@ -84,10 +85,4 @@ button{
 
 .scelta{
 	padding: 70px;
-}
-
-
-
-#intermezzo{
-	height: 200px;
 }

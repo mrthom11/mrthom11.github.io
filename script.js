@@ -2,6 +2,9 @@ let a=0;
 let b=0;
 let c=0;
 let d=0;
+let e=0;
+
+
 function studi(){
 	var x=document.getElementById("studi");
 	if(x.style.display==="none"){
@@ -73,6 +76,63 @@ function pretura(){
 	d+=1;
 	}
 }
+
+function tradimento(){
+	var x = document.getElementById("tradimento");
+	if (x.style.display==="none"&& e!==1){
+	x.style.display ="block";
+	window.scrollTo(0,document.body.scrollHeight);
+	e+=1;
+	}
+}
+
+function fedeltà(){
+	var x = document.getElementById("fedeltà");
+	if (x.style.display==="none"&& e!==1){
+	x.style.display ="block";
+	window.scrollTo(0,document.body.scrollHeight);
+	e+=1;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function fine(){
 	alert("Mi spiace ma non sarai tu il nuovo imperatore");
 	window.location.href="loser.html";
@@ -81,3 +141,4 @@ function win(){
 	alert("complimenti sarai tu il nuovo imperatore");
 	window.location.href="winner.html";
 }
+
