@@ -55,7 +55,7 @@
  </div>
  <div id="studi" style="display: none;">
   <h1 id="storia"><b><i>Lepido nasce nel 90 a.C a Roma da una famiglia benestante. Tuo padre ha una bottega e ti permette di scegliere il tuo percorso di studi. Quale scegli? </i></b></h1>
-    <div id="scelta" class="container-fluid">
+    <div class="scelta" class="container-fluid">
       <div class="row">
    <div class="col-sm-6" style="text-align: center;">
     <button type="button" class="btn btn-outline-light btn-block" onclick="filosofici()">Filosofici</button>
@@ -67,8 +67,8 @@
   </div>
 </div>
 <div id="filosofici" style="display: none;">
-  <h1 id="storia"><b><i>Per gli studi filosofici cambia città e si reca a  </i></b></h1>
-    <div id="scelta" class="container-fluid">
+  <h1 class="storia"><b><i>Per gli studi filosofici cambia città e si reca a  </i></b></h1>
+    <div class="scelta" class="container-fluid">
       <div class="row">
    <div class="col-sm-6" style="text-align: center;">
     <button type="button" class="btn btn-outline-light btn-block" onclick="napoli()">Napoli</button>
@@ -81,8 +81,8 @@
 </div>
   </div>
   <div id="napoli" style="display: none;">
-    <h1 id="storia"><b><i>Finiti gli studi </i></b></h1>
-      <div id="scelta" class="container-fluid">
+    <h1 class="storia"><b><i>Finiti gli studi </i></b></h1>
+      <div class="scelta" class="container-fluid">
         <div class="row">
      <div class="col-sm-6" style="text-align: center;">
       <button type="button" class="btn btn-outline-light btn-block" onclick=fine()>Diventa docente di filosofia e retorica</button>
@@ -94,8 +94,8 @@
     </div>
   </div>
   <div id="atene" style="display: none;">
-    <h1 id="storia"><b><i>Finiti gli studi</i></b></h1>
-      <div id="scelta" class="container-fluid">
+    <h1 class="storia"><b><i>Finiti gli studi</i></b></h1>
+      <div class="scelta" class="container-fluid">
         <div class="row">
      <div class="col-sm-6" style="text-align: center;">
       <button type="button" class="btn btn-outline-light btn-block" onclick=fine()>Torna a Roma</button>
@@ -107,8 +107,8 @@
     </div>
   </div>
  <div id="giuridici" style="display: none;">
-  <h1 id="storia"><b><i>Una volta diventato avvocato decide di </i></b></h1>
-    <div id="scelta" class="container-fluid">
+  <h1 class="storia"><b><i>Una volta diventato avvocato decide di </i></b></h1>
+    <div class="scelta" class="container-fluid">
       <div class="row">
    <div class="col-sm-6" style="text-align: center;">
     <button type="button" class="btn btn-outline-light btn-block" onclick="politica()">Seguire la carriera politica</button>
@@ -120,8 +120,8 @@
   </div>
 </div>
  <div id="politica" style="display: none;">
-  <h1 id="storia"><b><i>Una volta intrapreso il cursus honorum assume il ruolo di</i></b></h1>
-    <div id="scelta" class="container-fluid">
+  <h1 class="storia"><b><i>Una volta intrapreso il cursus honorum assume il ruolo di</i></b></h1>
+    <div class="scelta" class="container-fluid">
       <div class="row">
    <div class="col-sm-6" style="text-align: center;">
     <button type="button" class="btn btn-outline-light btn-block"  onclick="consolato()">Console</button>
@@ -132,9 +132,35 @@
   </div>
   </div>
 </div>
+<div id="consolato" style="display: none;">
+  <h1 class="storia"><b><i>Dopo pochi anni, a seguito della morte dell'imperatore</i></b></h1>
+    <div class="scelta" class="container-fluid">
+      <div class="row">
+   <div class="col-sm-6" style="text-align: center;">
+    <button type="button" class="btn btn-outline-light btn-block"  onclick="win()">il suo potere aumenta</button>
+   </div>
+   <div class="col-sm-6">
+    <button type="button" class="btn btn-outline-light btn-block"  onclick="fine()">Viene accusato dell'uccisione dell'imperatore</button>
+  </div>
+  </div>
+  </div>
+</div>
+<div id="pretura" style="display: none;">
+  <h1 class="storia"><b><i>Dopo pochi anni</i></b></h1>
+    <div class="scelta" class="container-fluid">
+      <div class="row">
+   <div class="col-sm-6" style="text-align: center;">
+    <button type="button" class="btn btn-outline-light btn-block"  onclick="fine()">Viene mandato in Britinia come propretore</button>
+   </div>
+   <div class="col-sm-6">
+    <button type="button" class="btn btn-outline-light btn-block"  onclick="fine()">Diventa governatore della provincia d'Egitto</button>
+  </div>
+  </div>
+  </div>
+</div>
  <div id="avvocato" style="display: none;">
-  <h1 id="storia"><b><i>La professione è  </i></b></h1>
-    <div id="scelta" class="container-fluid">
+  <h1 class="storia"><b><i>La professione è  </i></b></h1>
+    <div class="scelta" class="container-fluid">
       <div class="row">
    <div class="col-sm-6" style="text-align: center;">
     <button type="button" class="btn btn-outline-light btn-block" onclick="redd()">Redditizia</button>
@@ -145,10 +171,36 @@
   </div>
   </div>
 </div>
+<div id="redd" style="display: none;">
+  <h1 class="storia"><b><i>Grazie alle sue abilità </i></b></h1>
+    <div class="scelta" class="container-fluid">
+      <div class="row">
+   <div class="col-sm-6" style="text-align: center;">
+    <button type="button" class="btn btn-outline-light btn-block"  onclick="fine()">Diventa uno degli avvocati più famosi di Roma</button>
+   </div>
+   <div class="col-sm-6">
+    <button type="button" class="btn btn-outline-light btn-block"  onclick="fine()">Decide di ritirarsi prematuramente nei campi e dedicarsi alla vita agreste</button>
+  </div>
+  </div>
+  </div>
+</div>
+<div id="nointeresse" style="display: none;">
+  <h1 class="storia"><b><i>Non apprezzando la professione</i></b></h1>
+    <div class="scelta" class="container-fluid">
+      <div class="row">
+   <div class="col-sm-6" style="text-align: center;">
+    <button type="button" class="btn btn-outline-light btn-block"  onclick="fine()">Decide di diventare docente di legge presso l'Univeristà</button>
+   </div>
+   <div class="col-sm-6">
+    <button type="button" class="btn btn-outline-light btn-block"  onclick="fine()">Decide di dedicarsi alla bottega di famiglia</button>
+  </div>
+  </div>
+  </div>
+</div>
   </div>
  </div>
   </body>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body
+</html>
