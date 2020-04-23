@@ -3,7 +3,16 @@ let b=0;
 let c=0;
 let d=0;
 let e=0;
-
+let f=0;
+let g=0;
+let h=0;
+let i=0;
+let j=0;
+let k=0;
+let u=0;
+let m=0;
+let v=0;
+let z=0;
 
 function studi(){
 	var x=document.getElementById("studi");
@@ -44,6 +53,62 @@ function atene(){
 	c+=1;
 	}	
 }
+
+function Orazio(){
+	var x = document.getElementById("Orazio");
+	if (x.style.display==="none" && v!==1){
+    x.style.display ="block";
+	window.scrollTo(0,document.body.scrollHeight);
+	v+=1;
+	}	
+}
+
+function morte(){
+	var x = document.getElementById("morte");
+	if (x.style.display==="none" && v!==1){
+    x.style.display ="block";
+	window.scrollTo(0,document.body.scrollHeight);
+	v+=1;
+	}	
+}
+
+function letterato(){
+	var x = document.getElementById("letterato");
+	if (x.style.display==="none" && u!==1){
+    x.style.display ="block";
+	window.scrollTo(0,document.body.scrollHeight);
+	u+=1;
+	}	
+}
+
+function litigio(){
+	var x = document.getElementById("litigio");
+	if (x.style.display==="none" && u!==1){
+    x.style.display ="block";
+	window.scrollTo(0,document.body.scrollHeight);
+	u+=1;
+	}	
+}
+
+function raccomandazione(){
+	var x = document.getElementById("raccomandazione");
+	if (x.style.display==="none" && m!==1){
+    x.style.display ="block";
+	window.scrollTo(0,document.body.scrollHeight);
+	m+=1;
+	}	
+}
+
+function prigione(){
+	var x = document.getElementById("prigione");
+	if (x.style.display==="none" && m!==1){
+    x.style.display ="block";
+	window.scrollTo(0,document.body.scrollHeight);
+	m+=1;
+	}	
+}
+
+
 function avvocato(){
 	var x = document.getElementById("avvocato");
 	if (x.style.display==="none" && b!==1){
@@ -77,6 +142,15 @@ function pretura(){
 	}
 }
 
+function pretura2(){
+	var x = document.getElementById("pretura2");
+	if (x.style.display==="none"&& f!==1){
+	x.style.display ="block";
+	window.scrollTo(0,document.body.scrollHeight);
+	f+=1;
+	}
+}
+
 function tradimento(){
 	var x = document.getElementById("tradimento");
 	if (x.style.display==="none"&& e!==1){
@@ -85,6 +159,16 @@ function tradimento(){
 	e+=1;
 	}
 }
+
+function tradimento2(){
+	var x = document.getElementById("tradimento2");
+	if (x.style.display==="none"&& z!==1){
+	x.style.display ="block";
+	window.scrollTo(0,document.body.scrollHeight);
+	z+=1;
+	}
+}
+
 
 function fedeltà(){
 	var x = document.getElementById("fedeltà");
@@ -95,9 +179,105 @@ function fedeltà(){
 	}
 }
 
+function fedeltà2(){
+	var x = document.getElementById("fedeltà2");
+	if (x.style.display==="none"&& z!==1){
+	x.style.display ="block";
+	window.scrollTo(0,document.body.scrollHeight);
+	z+=1;
+	}
+}
 
+function suicidio(){
+	var x = document.getElementById("suicidio");
+	if (x.style.display==="none"&& f!==1){
+	x.style.display ="block";
+	window.scrollTo(0,document.body.scrollHeight);
+	f+=1;
+	}
+}
 
+function Britannia(){
+	var x = document.getElementById("Britannia");
+	if (x.style.display==="none"&& g!==1){
+	x.style.display ="block";
+	window.scrollTo(0,document.body.scrollHeight);
+	g+=1;
+	}
+}
 
+function Siria(){
+	var x = document.getElementById("Siria");
+	if (x.style.display==="none"&& g!==1){
+	x.style.display ="block";
+	window.scrollTo(0,document.body.scrollHeight);
+	g+=1;
+	}
+}
+
+function mediazione(){
+	var x = document.getElementById("mediazione");
+	if (x.style.display==="none"&& h!==1){
+	x.style.display ="block";
+	window.scrollTo(0,document.body.scrollHeight);
+	h+=1;
+	}
+}
+
+function repressione(){
+	var x = document.getElementById("repressione");
+	if (x.style.display==="none"&& h!==1){
+	x.style.display ="block";
+	window.scrollTo(0,document.body.scrollHeight);
+	h+=1;
+	}
+}
+
+function uccisione(){
+	var x = document.getElementById("uccisione");
+	if (x.style.display==="none"&& i!==1){
+	x.style.display ="block";
+	window.scrollTo(0,document.body.scrollHeight);
+	i+=1;
+	k+=1;
+	}
+}
+
+function misericordia(){
+	var x = document.getElementById("misericordia");
+	if (x.style.display==="none"&& i!==1){
+	x.style.display ="block";
+	window.scrollTo(0,document.body.scrollHeight);
+	i+=1;
+	}
+}
+
+function accordo(){
+	var x = document.getElementById("accordo");
+	if (x.style.display==="none"&& j!==1){
+	x.style.display ="block";
+	window.scrollTo(0,document.body.scrollHeight);
+	j+=1;
+	}
+}
+
+function marcia(){
+	var x = document.getElementById("marcia");
+	if (x.style.display==="none"&& j!==1){
+	x.style.display ="block";
+	window.scrollTo(0,document.body.scrollHeight);
+	j+=1;
+	}
+}
+
+function felicità(){
+	var x = document.getElementById("felicità");
+	if (x.style.display==="none"&& k!==1){
+	x.style.display ="block";
+	window.scrollTo(0,document.body.scrollHeight);
+	k+=1;
+	}
+}
 
 
 

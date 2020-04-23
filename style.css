@@ -13,6 +13,13 @@ p {
 	color: white;
 }
 
+.blocco{
+	height: 350px;
+	background-image: url(studi.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
 .jumbotron {
 	background-color: black;
 	text-align: center;
@@ -30,50 +37,6 @@ p {
 	background-color: black;
 }
 
-#studi{
-
-	height: 350px;
-	background-image: url(studi.jpg);
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-#giuridici{
-	height: 350px;
-	background-image: url(studi.jpg);
-	background-size: contain;
-	background-repeat:no-repeat;
-	margin-top: 0px;
-}
-#filosofici{
-	height: 350px;
-	background-image: url(studi.jpg);
-	background-size: contain;
-	background-repeat:no-repeat;
-}
-#avvocato{
-	height: 350px;
-	background-image: url(studi.jpg);
-	background-size: contain;
-	background-repeat:no-repeat;
-}
-#politica{
-	height: 350px;
-	background-image: url(studi.jpg);
-	background-size: contain;
-	background-repeat:no-repeat;
-}
-#napoli{
-	height: 350px;
-	background-image: url(studi.jpg);
-	background-size: contain;
-	background-repeat:no-repeat;
-}
-#atene, #nointeresse, #redd, #pretura, #consolato{
-	height: 350px;
-	background-image: url(studi.jpg);
-	background-size: contain;
-	background-repeat:no-repeat;
-}
 .card{
 	background-color: transparent;
 }
@@ -84,5 +47,5 @@ button{
 }
 
 .scelta{
-	padding: 70px;
+	padding: 100px;
 }
