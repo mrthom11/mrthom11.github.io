@@ -3,6 +3,51 @@
 <head>
   <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <h1>you won!</h1>
-</head>
+    </head>
+    <body>
+    <section id="growing">
+      <h1>the winner is YOU</h1>
+    </section>
+    <script
+    src="https://code.jquery.com/jquery-3.5.0.js"
+    integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="jquery.fireworks.js"></script>
+    <script type="text/javascript">
+      $('section').fireworks({ 
+       sound: true, // sound effect
+      opacity: 0.9, 
+      width: '100%', 
+      height: '100%' 
+      });
+    </script>
+    <script>growing.onclick = function() {
+      this.style.fontSize = '36px';
+      this.style.color = 'white';
+      };
+    </script>
+  </body>
 </html>
+
+<style>
+#growing{
+    transition: font-size 3s, color 2s;
+  }
+h1{
+  text-align:center;
+  margin:0;
+  padding:0;
+  color: white;
+}
+body{
+  margin:0;
+  padding:0;
+}
+section{
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+
+}
+</style>
+
