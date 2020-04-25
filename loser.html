@@ -3,6 +3,111 @@
 <head>
   <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <h1>looooser!</h1>
 </head>
+<body>
+  <h1 id="growing">LOSER</h1>
+  <div class="container">
+    <div class="cloud1">
+      <img src="cloud1.png">
+    </div>
+    <div class="cloud2">
+      <img src="cloud2.png">
+    </div>
+    <div class="cloud3">
+      <img src="cloud1.png">
+    </div>
+    <div class="cloud4">
+      <img src="cloud2.png">
+    </div>
+  </div>
+</body>
 </html>
+
+<style>
+  body{
+    margin:0;
+    padding:0;
+  
+  }
+  h1{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color:black;
+    background-color: #4F4F4F;
+  }
+  #growing{
+    transition: font-size 3s, color 2s;
+  }
+  .container{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#4F4F4F;
+    height:750px;
+    width:100%;
+    position:relative;
+    overflow:hidden;
+    
+  }
+  .container img{
+    width:100%
+  }
+  .container .cloud1{
+    position: absolute;
+    top:60px;
+    animation:cloudone infinite 30s linear;
+  }
+  .container .cloud2{
+    position: absolute;
+    top:-50px;
+    animation:cloudtwo infinite 45s linear;
+  }
+  .container .cloud3{
+    position: absolute;
+    top:0px;
+    animation:cloudthree infinite 15s linear;
+  }
+  .container .cloud4{
+    position: absolute;
+    top:0px;
+    animation:cloudfour infinite 60s linear;
+  }
+  @keyframes cloudone{
+    0%{
+      transform:translateX(-100%);
+    }
+    100%{
+      transform:translateX(100%)
+    }
+  }
+  @keyframes cloudtwo{
+    0%{
+      transform:translateX(-100%);
+    }
+    100%{
+      transform:translateX(100%)
+    }
+  }
+  @keyframes cloudthree{
+    0%{
+      transform:translateX(-100%);
+    }
+    100%{
+      transform:translateX(100%)
+    }
+  }
+  @keyframes cloudfour{
+    0%{
+      transform:translateX(-100%);
+    }
+    100%{
+      transform:translateX(100%)
+    }
+  }
+</style>
+
+<script>growing.onclick = function() {
+  this.style.fontSize = '64px';
+  this.style.color = 'black';
+  };
+</script>
