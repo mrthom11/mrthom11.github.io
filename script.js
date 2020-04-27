@@ -15,14 +15,14 @@ let v=0;
 let z=0;
 
 function studi(){
-	var x=document.getElementById("studi");
+	let x=document.getElementById("studi");
 	if(x.style.display==="none"){
 		x.style.display="block";
 		window.scrollTo(0,document.body.scrollHeight);
 	}
 }
 function filosofici(){ 
-	var x = document.getElementById("filosofici");
+	let x = document.getElementById("filosofici");
 	if (x.style.display==="none" && a!==1){
 		x.style.display ="block";
 		a+=1
@@ -30,7 +30,7 @@ function filosofici(){
 	}	
 }
 function giuridici() {
-	var x = document.getElementById("giuridici");
+	let x = document.getElementById("giuridici");
 	if (x.style.display === "none"&& a!==1) {
 	  x.style.display = "block";
 	  a+=1;
@@ -38,7 +38,7 @@ function giuridici() {
 	}
 }
 function napoli(){
-	var x = document.getElementById("napoli");
+	let x = document.getElementById("napoli");
 	if (x.style.display==="none" && c!==1){
     x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -46,7 +46,7 @@ function napoli(){
 	}	
 }
 function atene(){
-	var x = document.getElementById("atene");
+	let x = document.getElementById("atene");
 	if (x.style.display==="none" && c!==1){
     x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -55,7 +55,7 @@ function atene(){
 }
 
 function Orazio(){
-	var x = document.getElementById("Orazio");
+	let x = document.getElementById("Orazio");
 	if (x.style.display==="none" && v!==1){
     x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -64,7 +64,7 @@ function Orazio(){
 }
 
 function morte(){
-	var x = document.getElementById("morte");
+	let x = document.getElementById("morte");
 	if (x.style.display==="none" && v!==1){
     x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -73,7 +73,7 @@ function morte(){
 }
 
 function letterato(){
-	var x = document.getElementById("letterato");
+	let x = document.getElementById("letterato");
 	if (x.style.display==="none" && u!==1){
     x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -82,7 +82,7 @@ function letterato(){
 }
 
 function litigio(){
-	var x = document.getElementById("litigio");
+	let x = document.getElementById("litigio");
 	if (x.style.display==="none" && u!==1){
     x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -91,7 +91,7 @@ function litigio(){
 }
 
 function raccomandazione(){
-	var x = document.getElementById("raccomandazione");
+	let x = document.getElementById("raccomandazione");
 	if (x.style.display==="none" && m!==1){
     x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -100,7 +100,7 @@ function raccomandazione(){
 }
 
 function prigione(){
-	var x = document.getElementById("prigione");
+	let x = document.getElementById("prigione");
 	if (x.style.display==="none" && m!==1){
     x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -110,7 +110,7 @@ function prigione(){
 
 
 function avvocato(){
-	var x = document.getElementById("avvocato");
+	let x = document.getElementById("avvocato");
 	if (x.style.display==="none" && b!==1){
     x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -118,7 +118,7 @@ function avvocato(){
 	}
 }
 function politica(){
-	var x = document.getElementById("politica");
+	let x = document.getElementById("politica");
 	if (x.style.display==="none"&& b!==1){
     x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -126,7 +126,7 @@ function politica(){
 	}
 }
 function consolato(){
-	var x = document.getElementById("consolato");
+	let x = document.getElementById("consolato");
 	if (x.style.display==="none"&& d!==1){
     x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -134,7 +134,7 @@ function consolato(){
 	}
 }
 function pretura(){
-	var x = document.getElementById("pretura");
+	let x = document.getElementById("pretura");
 	if (x.style.display==="none"&& d!==1){
 	x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -143,7 +143,7 @@ function pretura(){
 }
 
 function pretura2(){
-	var x = document.getElementById("pretura2");
+	let x = document.getElementById("pretura2");
 	if (x.style.display==="none"&& f!==1){
 	x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -152,7 +152,7 @@ function pretura2(){
 }
 
 function tradimento(){
-	var x = document.getElementById("tradimento");
+	let x = document.getElementById("tradimento");
 	if (x.style.display==="none"&& e!==1){
 	x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -161,7 +161,7 @@ function tradimento(){
 }
 
 function tradimento2(){
-	var x = document.getElementById("tradimento2");
+	let x = document.getElementById("tradimento2");
 	if (x.style.display==="none"&& z!==1){
 	x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -171,7 +171,7 @@ function tradimento2(){
 
 
 function fedeltà(){
-	var x = document.getElementById("fedeltà");
+	let x = document.getElementById("fedeltà");
 	if (x.style.display==="none"&& e!==1){
 	x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -180,7 +180,7 @@ function fedeltà(){
 }
 
 function fedeltà2(){
-	var x = document.getElementById("fedeltà2");
+	let x = document.getElementById("fedeltà2");
 	if (x.style.display==="none"&& z!==1){
 	x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -189,7 +189,7 @@ function fedeltà2(){
 }
 
 function suicidio(){
-	var x = document.getElementById("suicidio");
+	let x = document.getElementById("suicidio");
 	if (x.style.display==="none"&& f!==1){
 	x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -198,7 +198,7 @@ function suicidio(){
 }
 
 function Britannia(){
-	var x = document.getElementById("Britannia");
+	let x = document.getElementById("Britannia");
 	if (x.style.display==="none"&& g!==1){
 	x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -207,7 +207,7 @@ function Britannia(){
 }
 
 function Siria(){
-	var x = document.getElementById("Siria");
+	let x = document.getElementById("Siria");
 	if (x.style.display==="none"&& g!==1){
 	x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -216,7 +216,7 @@ function Siria(){
 }
 
 function mediazione(){
-	var x = document.getElementById("mediazione");
+	let x = document.getElementById("mediazione");
 	if (x.style.display==="none"&& h!==1){
 	x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -225,7 +225,7 @@ function mediazione(){
 }
 
 function repressione(){
-	var x = document.getElementById("repressione");
+	let x = document.getElementById("repressione");
 	if (x.style.display==="none"&& h!==1){
 	x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -234,7 +234,7 @@ function repressione(){
 }
 
 function uccisione(){
-	var x = document.getElementById("uccisione");
+	let x = document.getElementById("uccisione");
 	if (x.style.display==="none"&& i!==1){
 	x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -244,7 +244,7 @@ function uccisione(){
 }
 
 function misericordia(){
-	var x = document.getElementById("misericordia");
+	let x = document.getElementById("misericordia");
 	if (x.style.display==="none"&& i!==1){
 	x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -253,7 +253,7 @@ function misericordia(){
 }
 
 function accordo(){
-	var x = document.getElementById("accordo");
+	let x = document.getElementById("accordo");
 	if (x.style.display==="none"&& j!==1){
 	x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -262,7 +262,7 @@ function accordo(){
 }
 
 function marcia(){
-	var x = document.getElementById("marcia");
+	let x = document.getElementById("marcia");
 	if (x.style.display==="none"&& j!==1){
 	x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -271,47 +271,13 @@ function marcia(){
 }
 
 function felicità(){
-	var x = document.getElementById("felicità");
+	let x = document.getElementById("felicità");
 	if (x.style.display==="none"&& k!==1){
 	x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
 	k+=1;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 function fine(){
 	alert("Mi spiace ma non sarai tu il nuovo imperatore");
@@ -321,4 +287,3 @@ function win(){
 	alert("complimenti sarai tu il nuovo imperatore");
 	window.location.href="winner.html";
 }
-
