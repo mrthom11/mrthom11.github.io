@@ -15,14 +15,14 @@ let v=0;
 let z=0;
 
 function studi(){
-	const x=document.getElementById("studi");
+	var x=document.getElementById("studi");
 	if(x.style.display==="none"){
 		x.style.display="block";
 		window.scrollTo(0,document.body.scrollHeight);
 	}
 }
 function filosofici(){ 
-	const x = document.getElementById("filosofici");
+	var x = document.getElementById("filosofici");
 	if (x.style.display==="none" && a!==1){
 		x.style.display ="block";
 		a+=1
@@ -30,7 +30,7 @@ function filosofici(){
 	}	
 }
 function giuridici() {
-	const x = document.getElementById("giuridici");
+	var x = document.getElementById("giuridici");
 	if (x.style.display === "none"&& a!==1) {
 	  x.style.display = "block";
 	  a+=1;
@@ -38,7 +38,7 @@ function giuridici() {
 	}
 }
 function napoli(){
-	const x = document.getElementById("napoli");
+	var x = document.getElementById("napoli");
 	if (x.style.display==="none" && c!==1){
     x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -46,7 +46,7 @@ function napoli(){
 	}	
 }
 function atene(){
-	const x = document.getElementById("atene");
+	var x = document.getElementById("atene");
 	if (x.style.display==="none" && c!==1){
     x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -55,7 +55,7 @@ function atene(){
 }
 
 function Orazio(){
-	const x = document.getElementById("Orazio");
+	var x = document.getElementById("Orazio");
 	if (x.style.display==="none" && v!==1){
     x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -64,7 +64,7 @@ function Orazio(){
 }
 
 function morte(){
-	const x = document.getElementById("morte");
+	var x = document.getElementById("morte");
 	if (x.style.display==="none" && v!==1){
     x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -73,7 +73,7 @@ function morte(){
 }
 
 function letterato(){
-	const x = document.getElementById("letterato");
+	var x = document.getElementById("letterato");
 	if (x.style.display==="none" && u!==1){
     x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -82,7 +82,7 @@ function letterato(){
 }
 
 function litigio(){
-	const x = document.getElementById("litigio");
+	var x = document.getElementById("litigio");
 	if (x.style.display==="none" && u!==1){
     x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -91,7 +91,7 @@ function litigio(){
 }
 
 function raccomandazione(){
-	const x = document.getElementById("raccomandazione");
+	var x = document.getElementById("raccomandazione");
 	if (x.style.display==="none" && m!==1){
     x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -100,7 +100,7 @@ function raccomandazione(){
 }
 
 function prigione(){
-	const x = document.getElementById("prigione");
+	var x = document.getElementById("prigione");
 	if (x.style.display==="none" && m!==1){
     x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -110,7 +110,7 @@ function prigione(){
 
 
 function avvocato(){
-	const x = document.getElementById("avvocato");
+	var x = document.getElementById("avvocato");
 	if (x.style.display==="none" && b!==1){
     x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -118,7 +118,7 @@ function avvocato(){
 	}
 }
 function politica(){
-	const x = document.getElementById("politica");
+	var x = document.getElementById("politica");
 	if (x.style.display==="none"&& b!==1){
     x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -126,7 +126,7 @@ function politica(){
 	}
 }
 function consolato(){
-	const x = document.getElementById("consolato");
+	var x = document.getElementById("consolato");
 	if (x.style.display==="none"&& d!==1){
     x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -134,7 +134,7 @@ function consolato(){
 	}
 }
 function pretura(){
-	const x = document.getElementById("pretura");
+	var x = document.getElementById("pretura");
 	if (x.style.display==="none"&& d!==1){
 	x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -143,7 +143,7 @@ function pretura(){
 }
 
 function pretura2(){
-	const x = document.getElementById("pretura2");
+	var x = document.getElementById("pretura2");
 	if (x.style.display==="none"&& f!==1){
 	x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -152,7 +152,7 @@ function pretura2(){
 }
 
 function tradimento(){
-	const x = document.getElementById("tradimento");
+	var x = document.getElementById("tradimento");
 	if (x.style.display==="none"&& e!==1){
 	x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -161,7 +161,7 @@ function tradimento(){
 }
 
 function tradimento2(){
-	const x = document.getElementById("tradimento2");
+	var x = document.getElementById("tradimento2");
 	if (x.style.display==="none"&& z!==1){
 	x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -171,7 +171,7 @@ function tradimento2(){
 
 
 function fedeltà(){
-	const x = document.getElementById("fedeltà");
+	var x = document.getElementById("fedeltà");
 	if (x.style.display==="none"&& e!==1){
 	x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -180,7 +180,7 @@ function fedeltà(){
 }
 
 function fedeltà2(){
-	const x = document.getElementById("fedeltà2");
+	var x = document.getElementById("fedeltà2");
 	if (x.style.display==="none"&& z!==1){
 	x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -189,7 +189,7 @@ function fedeltà2(){
 }
 
 function suicidio(){
-	const x = document.getElementById("suicidio");
+	var x = document.getElementById("suicidio");
 	if (x.style.display==="none"&& f!==1){
 	x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -198,7 +198,7 @@ function suicidio(){
 }
 
 function Britannia(){
-	const x = document.getElementById("Britannia");
+	var x = document.getElementById("Britannia");
 	if (x.style.display==="none"&& g!==1){
 	x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -207,7 +207,7 @@ function Britannia(){
 }
 
 function Siria(){
-	const x = document.getElementById("Siria");
+	var x = document.getElementById("Siria");
 	if (x.style.display==="none"&& g!==1){
 	x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -216,7 +216,7 @@ function Siria(){
 }
 
 function mediazione(){
-	let x = document.getElementById("mediazione");
+	var x = document.getElementById("mediazione");
 	if (x.style.display==="none"&& h!==1){
 	x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -225,7 +225,7 @@ function mediazione(){
 }
 
 function repressione(){
-	const x = document.getElementById("repressione");
+	var x = document.getElementById("repressione");
 	if (x.style.display==="none"&& h!==1){
 	x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -234,25 +234,17 @@ function repressione(){
 }
 
 function uccisione(){
-	const x = document.getElementById("uccisione");
-	if (x.style.display==="none"&& k!==1){
-	x.style.display ="block";
-	window.scrollTo(0,document.body.scrollHeight);
-	k+=1;
-	}
-}
-
-function uccisione2(){
-	const x = document.getElementById("uccisione");
+	var x = document.getElementById("uccisione");
 	if (x.style.display==="none"&& i!==1){
 	x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
 	i+=1;
+	k+=1;
 	}
 }
 
 function misericordia(){
-	const x = document.getElementById("misericordia");
+	var x = document.getElementById("misericordia");
 	if (x.style.display==="none"&& i!==1){
 	x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -261,7 +253,7 @@ function misericordia(){
 }
 
 function accordo(){
-	const x = document.getElementById("accordo");
+	var x = document.getElementById("accordo");
 	if (x.style.display==="none"&& j!==1){
 	x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -270,7 +262,7 @@ function accordo(){
 }
 
 function marcia(){
-	const x = document.getElementById("marcia");
+	var x = document.getElementById("marcia");
 	if (x.style.display==="none"&& j!==1){
 	x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
@@ -279,7 +271,7 @@ function marcia(){
 }
 
 function felicità(){
-	const x = document.getElementById("felicità");
+	var x = document.getElementById("felicità");
 	if (x.style.display==="none"&& k!==1){
 	x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
