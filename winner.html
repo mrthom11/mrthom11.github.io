@@ -13,19 +13,6 @@
     integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc="
     crossorigin="anonymous"></script>
     <script type="text/javascript" src="jquery.fireworks.js"></script>
-    <script type="text/javascript">
-      $('section').fireworks({ 
-       sound: true, // sound effect
-      opacity: 0.9, 
-      width: '100%', 
-      height: '100%' 
-      });
-    </script>
-    <script>growing.onclick = function() {
-      this.style.fontSize = '36px';
-      this.style.color = 'white';
-      };
-    </script>
   </body>
 </html>
 
@@ -50,4 +37,17 @@ section{
 
 }
 </style>
+
+<script>
+  $('section').fireworks({ 
+   sound: true, // sound effect
+  opacity: 0.9, 
+  width: '100%', 
+  height: '100%' 
+  });
+growing.onclick = function() {
+  this.style.fontSize = '36px';
+  this.style.color = 'white';
+  };
+</script>
 
