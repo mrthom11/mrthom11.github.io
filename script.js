@@ -235,11 +235,19 @@ function repressione(){
 
 function uccisione(){
 	const x = document.getElementById("uccisione");
+	if (x.style.display==="none"&& k!==1){
+	x.style.display ="block";
+	window.scrollTo(0,document.body.scrollHeight);
+	k+=1;
+	}
+}
+
+function uccisione2(){
+	const x = document.getElementById("uccisione");
 	if (x.style.display==="none"&& i!==1){
 	x.style.display ="block";
 	window.scrollTo(0,document.body.scrollHeight);
 	i+=1;
-	k+=1;
 	}
 }
 
@@ -278,6 +286,7 @@ function felicità(){
 	k+=1;
 	}
 }
+
 function fine(){
 	alert("Mi spiace ma non sarai tu il nuovo imperatore");
 	window.location.href="loser.html";
@@ -286,3 +295,4 @@ function win(){
 	alert("complimenti sarai tu il nuovo imperatore");
 	window.location.href="winner.html";
 }
+
