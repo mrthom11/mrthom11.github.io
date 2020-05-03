@@ -1,13 +1,13 @@
 const ids=["filosofici", "giuridici", "napoli","atene", 
 "Orazio", "morte", "letterato", "litigio",
- "raccomandazione", "prigione", "politica", "avvocato", 
+ "amicizia", "prigione", "politica", "avvocato", 
  "consolato", "pretura","tradimento","fedeltà" ,
-"Britannia","Siria","suicidio","pretura2","mediazione",
+"Britannia","Siria","suicidio","arresto","mediazione",
 "repressione","uccisione","misericordia","felicità",
 "marcia","accordo"];
 let buttons= document.getElementsByClassName('btn btn-outline-light btn-block');
 const a=buttons.length;
-function disableeven(num){
+function disable(num){
 	buttons[num+1].disabled=true;
 	buttons[num+1].style.background='black';
 }
