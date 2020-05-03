@@ -1,4 +1,4 @@
-onst ids=["filosofici", "giuridici", "napoli","atene", 
+const ids=["filosofici", "giuridici", "napoli","atene", 
 "Orazio", "morte", "letterato", "litigio",
  "raccomandazione", "prigione", "politica", "avvocato", 
  "consolato", "pretura","tradimento","fedeltà" ,
