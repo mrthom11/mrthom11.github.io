@@ -18,9 +18,6 @@
     </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Info</a>
-      </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Pages
@@ -56,10 +53,10 @@
     <div class="scelta" class="container-fluid">
       <div class="row">
    <div class="col-sm-6" style="text-align: center;">
-    <button type="button" class="btn btn-outline-light btn-block" onclick="filosofici()">Filosofici</button>
+    <button type="button" class="btn btn-outline-light btn-block" onclick="choice(0)">Filosofici</button>
    </div>
    <div class="col-sm-6">
-    <button type="button" class="btn btn-outline-light btn-block"  onclick="giuridici()">Giuridici</button>
+    <button type="button" class="btn btn-outline-light btn-block" onclick="choice(1)">Giuridici</button>
   </div>
   </div>
   </div>
@@ -70,10 +67,10 @@
     <div class="scelta" class="container-fluid">
       <div class="row">
    <div class="col-sm-6" style="text-align: center;">
-    <button type="button" class="btn btn-outline-light btn-block" onclick="napoli()">Napoli</button>
+    <button type="button" class="btn btn-outline-light btn-block" onclick="choice(2)">Napoli</button>
    </div>
    <div class="col-sm-6">
-    <button type="button" class="btn btn-outline-light btn-block" onclick="atene()">Atene</button>
+    <button type="button" class="btn btn-outline-light btn-block" onclick="choice(3)">Atene</button>
   </div>
   </div>
   </div>
@@ -85,10 +82,10 @@
       <div class="scelta" class="container-fluid">
         <div class="row">
      <div class="col-sm-6" style="text-align: center;">
-      <button type="button" class="btn btn-outline-light btn-block" onclick="fine()"">Diventi docente di filosofia e retorica</button>
+      <button type="button" class="btn btn-outline-dark btn-block" onclick="fine()">Diventi docente di filosofia e retorica</button>
      </div>
      <div class="col-sm-6">
-      <button type="button" class="btn btn-outline-light btn-block" onclick="fine()"">Scopri la passione per la scrittura e inizi a scrivere trattati filosofici</button>
+      <button type="button" class="btn btn-outline-dark btn-block" onclick="fine()">Scopri la passione per la scrittura e inizi a scrivere trattati filosofici</button>
     </div>
     </div>
     </div>
@@ -99,10 +96,10 @@
       <div class="scelta" class="container-fluid">
         <div class="row">
      <div class="col-sm-6" style="text-align: center;">
-      <button type="button" class="btn btn-outline-light btn-block" onclick="Orazio()"">Torni a Roma</button>
+      <button type="button" class="btn btn-outline-light btn-block" onclick="choice(4)">Torni a Roma</button>
      </div>
      <div class="col-sm-6">
-      <button type="button" class="btn btn-outline-light btn-block" onclick="morte()">Ti stabilisci ad Atene con Elena, una cortigiana conosciuta durante gli studi.</button>
+      <button type="button" class="btn btn-outline-light btn-block" onclick="choice(5)">Ti stabilisci ad Atene con Elena, una cortigiana conosciuta durante gli studi.</button>
     </div>
     </div>
     </div>
@@ -113,7 +110,7 @@
       <div class="scelta" class="container-fluid">
         <div class="row">
      <div class="col-sm" style="text-align: center;">
-      <button type="button" class="btn btn-outline-light btn-block" onclick="fine()"">Fine</button>
+      <button type="button" class="btn btn-outline-dark btn-block" onclick="fine()">Fine</button>
      </div>
     </div>
     </div>
@@ -124,10 +121,10 @@
       <div class="scelta" class="container-fluid">
         <div class="row">
      <div class="col-sm-6" style="text-align: center;">
-      <button type="button" class="btn btn-outline-light btn-block" onclick="letterato()">Ti dedichi alla letteratura</button>
+      <button type="button"  class="btn btn-outline-light btn-block" onclick="choice(6)">Ti dedichi alla letteratura</button>
      </div>
      <div class="col-sm-6">
-      <button type="button" class="btn btn-outline-light btn-block" onclick="litigio()">Insulti Orazio per le sue opere insulse</button>
+      <button type="button"class="btn btn-outline-light btn-block" onclick="choice(7)">Insulti Orazio per le sue opere insulse</button>
     </div>
     </div>
     </div>
@@ -138,7 +135,7 @@
       <div class="scelta" class="container-fluid">
         <div class="row">
      <div class="col-sm" style="text-align: center;">
-      <button type="button" class="btn btn-outline-light btn-block" onclick="fine()"">Fine</button>
+      <button type="button" class="btn btn-outline-dark btn-block" onclick="fine()">Fine</button>
      </div>
     </div>
     </div>
@@ -149,10 +146,10 @@
       <div class="scelta" class="container-fluid">
         <div class="row">
      <div class="col-sm-6" style="text-align: center;">
-      <button type="button" class="btn btn-outline-light btn-block" onclick="raccomandazione()"">Dopo qualche imprecazione chiedi scusa ad Orazio</button>
+      <button type="button" class="btn btn-outline-light btn-block" onclick="choice(8)">Dopo qualche imprecazione chiedi scusa ad Orazio</button>
      </div>
      <div class="col-sm-6">
-      <button type="button" class="btn btn-outline-light btn-block" onclick="prigione()">Inizi a prendere a pugni Orazio ferendolo gravemente</button>
+      <button type="button" class="btn btn-outline-light btn-block" onclick="choice(9)">Inizi a prendere a pugni Orazio ferendolo gravemente</button>
     </div>
     </div>
     </div>
@@ -163,7 +160,7 @@
       <div class="scelta" class="container-fluid">
         <div class="row">
      <div class="col-sm" style="text-align: center;">
-      <button type="button" class="btn btn-outline-light btn-block" onclick="fine()"">fine</button>
+      <button type="button" class="btn btn-outline-dark btn-block" onclick="fine()">fine</button>
      </div>
     </div>
     </div>
@@ -174,7 +171,7 @@
       <div class="scelta" class="container-fluid">
         <div class="row">
      <div class="col-sm" style="text-align: center;">
-      <button type="button" class="btn btn-outline-light btn-block" onclick="consolato()"">Diventi console</button>
+      <button type="button" class="btn btn-outline-light btn-block" onclick="choice(12)">Diventi console</button>
      </div>
     </div>
     </div>
@@ -185,10 +182,10 @@
     <div class="scelta" class="container-fluid">
       <div class="row">
    <div class="col-sm-6" style="text-align: center;">
-    <button type="button" class="btn btn-outline-light btn-block" onclick="politica()">Seguire la carriera politica</button>
+    <button type="button" class="btn btn-outline-light btn-block" onclick="choice(10)">Seguire la carriera politica</button>
    </div>
    <div class="col-sm-6">
-    <button type="button" class="btn btn-outline-light btn-block" onclick="avvocato()">Esercitare la professione</button>
+    <button type="button" class="btn btn-outline-light btn-block" onclick="choice(11)">Esercitare la professione</button>
   </div>
   </div>
   </div>
@@ -199,10 +196,10 @@
     <div class="scelta" class="container-fluid">
       <div class="row">
    <div class="col-sm-6" style="text-align: center;">
-    <button type="button" class="btn btn-outline-light btn-block"  onclick="consolato()">Console</button>
+    <button type="button"  class="btn btn-outline-light btn-block" onclick="choice(12)">Console</button>
    </div>
    <div class="col-sm-6">
-    <button type="button" class="btn btn-outline-light btn-block"  onclick="pretura()">Pretore</button>
+    <button type="button" class="btn btn-outline-light btn-block" onclick="choice(13)">Pretore</button>
   </div>
   </div>
   </div>
@@ -213,10 +210,10 @@
     <div class="scelta" class="container-fluid">
       <div class="row">
    <div class="col-sm-6" style="text-align: center;">
-    <button type="button" class="btn btn-outline-light btn-block"  onclick="tradimento()">Tradisci Ottaviano</button>
+    <button type="button" class="btn btn-outline-light btn-block" onclick="choice(14)">Tradisci Ottaviano</button>
    </div>
    <div class="col-sm-6">
-    <button type="button" class="btn btn-outline-light btn-block"  onclick="fedeltà()">Rimani fedele al tuo comandante</button>
+    <button type="button" class="btn btn-outline-light btn-block" onclick="choice(15)">Rimani fedele al tuo comandante</button>
   </div>
   </div>
   </div>
@@ -227,10 +224,10 @@
     <div class="scelta" class="container-fluid">
       <div class="row">
    <div class="col-sm-6" style="text-align: center;">
-    <button type="button" class="btn btn-outline-light btn-block"  onclick="Britannia()">In Britannia</button>
+    <button type="button"  class="btn btn-outline-light btn-block" onclick="choice(16)">In Britannia</button>
    </div>
    <div class="col-sm-6">
-    <button type="button" class="btn btn-outline-light btn-block"  onclick="Siria()">In Siria</button>
+    <button type="button" class="btn btn-outline-light btn-block" onclick="choice(17)">In Siria</button>
   </div>
   </div>
   </div>
@@ -241,10 +238,10 @@
     <div class="scelta" class="container-fluid">
       <div class="row">
    <div class="col-sm-6" style="text-align: center;">
-    <button type="button" class="btn btn-outline-light btn-block" onclick="suicidio()">Suicidarti per lo shock e per la paura</button>
+    <button type="button" class="btn btn-outline-light btn-block" onclick="choice(18)">Suicidarti per lo shock e per la paura</button>
    </div>
    <div class="col-sm-6">
-    <button type="button" class="btn btn-outline-light btn-block" onclick="pretura2()">Entrare in politica come pretore per contrastare il potere crescente di Ottaviano Augusto</button>
+    <button type="button" class="btn btn-outline-light btn-block" onclick="choice(19)">Entrare in politica come pretore per contrastare il potere crescente di Ottaviano Augusto</button>
   </div>
   </div>
   </div>
@@ -255,10 +252,10 @@
     <div class="scelta" class="container-fluid">
       <div class="row">
    <div class="col-sm-6" style="text-align: center;">
-    <button type="button" class="btn btn-outline-light btn-block"  onclick="Britannia()">In Britannia</button>
+    <button type="button" class="btn btn-outline-light btn-block" onclick="choice(16)">In Britannia</button>
    </div>
    <div class="col-sm-6">
-    <button type="button" class="btn btn-outline-light btn-block"  onclick="Siria()">In Siria</button>
+    <button type="button" class="btn btn-outline-light btn-block" onclick="choice(17)">In Siria</button>
   </div>
   </div>
   </div>
@@ -270,10 +267,10 @@
     <div class="scelta" class="container-fluid">
       <div class="row">
    <div class="col-sm-6" style="text-align: center;">
-    <button type="button" class="btn btn-outline-light btn-block"  onclick="fine()">Maledici Giove per la tua triste e inutile esistenza</button>
+    <button type="button" class="btn btn-outline-dark btn-block"  onclick="fine()">Maledici Giove per la tua triste e inutile esistenza</button>
    </div>
    <div class="col-sm-6">
-    <button type="button" class="btn btn-outline-light btn-block"  onclick="fine()">Te ne vai in silenzio</button>
+    <button type="button" class="btn btn-outline-dark btn-block"  onclick="fine()">Te ne vai in silenzio</button>
    </div>
     </div>
   </div>
@@ -284,10 +281,10 @@
     <div class="scelta" class="container-fluid">
       <div class="row">
    <div class="col-sm-6" style="text-align: center;">
-    <button type="button" class="btn btn-outline-light btn-block"  onclick="mediazione()">Decidi di mediare coi ribelli pur scatenando la furia dell'imperatore</button>
+    <button type="button" class="btn btn-outline-light btn-block" onclick="choice(19)">Decidi di mediare coi ribelli pur scatenando la furia dell'imperatore</button>
    </div>
    <div class="col-sm-6">
-    <button type="button" class="btn btn-outline-light btn-block"  onclick="repressione()">Decidi di reprimere violentemente le rivolte</button>
+    <button type="button" class="btn btn-outline-light btn-block" onclick="choice(20)">Decidi di reprimere violentemente le rivolte</button>
   </div>
   </div>
   </div>
@@ -298,7 +295,7 @@
     <div class="scelta" class="container-fluid">
       <div class="row">
    <div class="col-sm" style="text-align: center;">
-    <button type="button" class="btn btn-outline-light btn-block"  onclick="fine()">Fine</button>
+    <button type="button" class="btn btn-outline-dark btn-block"  onclick="fine()">Fine</button>
    </div>
   </div>
   </div>
@@ -311,7 +308,7 @@
     <div class="scelta" class="container-fluid">
       <div class="row">
    <div class="col-sm" style="text-align: center;">
-    <button type="button" class="btn btn-outline-light btn-block"  onclick="fine()">Fine</button>
+    <button type="button" class="btn btn-outline-dark btn-block"  onclick="fine()">Fine</button>
    </div>
   </div>
   </div>
@@ -323,10 +320,10 @@
     <div class="scelta" class="container-fluid">
       <div class="row">
    <div class="col-sm-6" style="text-align: center;">
-    <button type="button" class="btn btn-outline-light btn-block"  onclick="tradimento()">Ti schieri con Antonio</button>
+    <button type="button" class="btn btn-outline-light btn-block" onclick="choice(14)">Ti schieri con Antonio</button>
    </div>
    <div class="col-sm-6">
-    <button type="button" class="btn btn-outline-light btn-block"  onclick="fedeltà()">Ti schieri con Augusto</button>
+    <button type="button" class="btn btn-outline-light btn-block" onclick="choice(15)">Ti schieri con Augusto</button>
   </div>
   </div>
   </div>
@@ -338,28 +335,20 @@
     <div class="scelta" class="container-fluid">
       <div class="row">
    <div class="col-sm-6" style="text-align: center;">
-    <button type="button" class="btn btn-outline-light btn-block"  onclick="uccisione()">Uccidi Ottaviano Augusto</button>
+    <button type="button" class="btn btn-outline-light btn-block" onclick="choice(21)">Uccidi Ottaviano Augusto</button>
    </div>
    <div class="col-sm-6">
-    <button type="button" class="btn btn-outline-light btn-block"  onclick="misericordia()">Risparmi Ottaviano Augusto</button>
+    <button type="button"  class="btn btn-outline-light btn-block" onclick="choice(22)">Risparmi Ottaviano Augusto</button>
   </div>
   </div>
   </div>
 </div>
-
-
-
-
-
-
-
-
 <div id="misericordia" class="blocco" style="display: none;">
   <h1 class="storia"><b><i>Dopo averlo risparmiato l'imperatore decide di catturarti e di ordinare la tua esecuzione il 7 Novembre del 30a.C</i></b></h1>
     <div class="scelta" class="container-fluid">
       <div class="row">
    <div class="col-sm" style="text-align: center;">
-    <button type="button" class="btn btn-outline-light btn-block"  onclick="Fine()">Fine</button>
+    <button type="button" class="btn btn-outline-dark btn-block"  onclick="fine()">Fine</button>
    </div>
   </div>
   </div>
@@ -371,10 +360,10 @@
     <div class="scelta" class="container-fluid">
       <div class="row">
    <div class="col-sm-6" style="text-align: center;">
-    <button type="button" class="btn btn-outline-light btn-block"  onclick="uccisione()">Gli regali una lama nel cuore</button>
+    <button type="button" class="btn btn-outline-light btn-block" onclick="choice(21)">Gli regali una lama nel cuore</button>
    </div>
    <div class="col-sm-6">
-    <button type="button" class="btn btn-outline-light btn-block"  onclick="felicità()">Ti piace la vita da console e gli scrivi una poesia </button>
+    <button type="button" class="btn btn-outline-light btn-block" onclick="choice(23)">Ti piace la vita da console e gli scrivi una poesia </button>
   </div>
   </div>
   </div>
@@ -385,10 +374,10 @@
     <div class="scelta" class="container-fluid">
       <div class="row">
    <div class="col-sm-6" style="text-align: center;">
-    <button type="button" class="btn btn-outline-light btn-block"  onclick="marcia()">Marci su Roma con l'esercito occupando anche il Senato</button>
+    <button type="button" class="btn btn-outline-light btn-block" onclick="choice(24)">Marci su Roma con l'esercito occupando anche il Senato</button>
    </div>
    <div class="col-sm-6">
-    <button type="button" class="btn btn-outline-light btn-block"  onclick="accordo()">Cerchi un accordo col Senato</button>
+    <button type="button"  class="btn btn-outline-light btn-block" onclick="choice(25)">Cerchi un accordo col Senato</button>
   </div>
   </div>
   </div>
@@ -399,7 +388,7 @@
     <div class="scelta" class="container-fluid">
       <div class="row">
    <div class="col-sm" style="text-align: center;">
-    <button type="button" class="btn btn-outline-light btn-block"  onclick="fine()">Fine</button>
+    <button type="button" class="btn btn-outline-dark btn-block"  onclick="fine()">Fine</button>
    </div>
   </div>
   </div>
@@ -411,7 +400,7 @@
     <div class="scelta" class="container-fluid">
       <div class="row">
    <div class="col-sm" style="text-align: center;">
-    <button type="button" class="btn btn-outline-light btn-block"  onclick="fine()">Fine</button>
+    <button type="button" class="btn btn-outline-dark btn-block"  onclick="fine()">Fine</button>
    </div>
   </div>
   </div>
@@ -422,7 +411,7 @@
     <div class="scelta" class="container-fluid">
       <div class="row">
    <div class="col-sm" style="text-align: center;">
-    <button type="button" class="btn btn-outline-light btn-block"  onclick="win()">Complimenti!</button>
+    <button type="button" class="btn btn-outline-dark btn-block"  onclick="win()">Complimenti!</button>
    </div>
   </div>
   </div>
