@@ -5,7 +5,7 @@ const ids=["filosofici", "giuridici", "napoli","atene",
 "Britannia","Siria","suicidio","pretura2","mediazione",
 "repressione","uccisione","misericordia","felicità",
 "marcia","accordo"];
-const buttons= document.getElementsByClassName('btn btn-outline-light btn-block');
+const buttons= document.getElementsByClassName('btn btn-primary btn-block');
 const a=ids.length;
 const b=buttons.length;
 
