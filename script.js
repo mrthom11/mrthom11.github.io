@@ -1,33 +1,13 @@
 const ids=["filosofici", "giuridici", "napoli","atene", 
 "Orazio", "morte", "letterato", "litigio",
- "amicizia", "prigione", "politica", "avvocato", 
+ "raccomandazione", "prigione", "politica", "avvocato", 
  "consolato", "pretura","tradimento","fedeltà" ,
-"Britannia","Siria","suicidio","arresto","mediazione",
+"Britannia","Siria","suicidio","pretura2","mediazione",
 "repressione","uccisione","misericordia","felicità",
 "marcia","accordo"];
-let buttons= document.getElementsByClassName('btn btn-outline-light btn-block');
-const a=buttons.length;
-function disable(num){
-	buttons[num+1].disabled=true;
-	buttons[num+1].style.background='black';
-}
-function disableodd(num){
-	buttons[num-1].disabled=true;
-	buttons[num-1].style.background='black';
-}
-function choice(num){
-	const x=document.getElementById(ids[num]);
-	if(x.style.display==="none"){
-		x.style.display="block";
-		window.scrollTo(0,document.body.scrollHeight);
-	}
-	if (num%2===0){
-		disableeven(num);
-	}
-	else {
-		disableodd(num);
-	}
-};
+const buttons= document.getElementsByClassName('btn btn-outline-light btn-block');
+const a=ids.length;
+const b=buttons.length;
 
 function studi(){
 	const x=document.getElementById("studi");
@@ -36,6 +16,39 @@ function studi(){
 		window.scrollTo(0,document.body.scrollHeight);
 	}
 }
+/*
+function verify(){
+	if (a!==b){
+		alert("qualcosa è andato storto");
+		window.location.href="index.html";
+	}
+}
+*/
+function disableeven(num){
+	buttons[num+1].disabled=true;
+	buttons[num+1].style.background='black';
+}
+
+function disableodd(num){
+	buttons[num-1].disabled=true;
+	buttons[num-1].style.background='black';
+}
+
+function choice(num){
+		const x=document.getElementById(ids[num]);
+		if(x.style.display==="none"){
+			x.style.display="block";
+			window.scrollTo(0,document.body.scrollHeight);
+		}
+		if (num%2===0){
+			disableeven(num);
+		}
+		else {
+			disableodd(num);
+		}
+	}
+
+
 
 function fine(){
 	alert("Mi spiace ma non sarai tu il nuovo imperatore");
