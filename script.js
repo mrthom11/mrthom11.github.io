@@ -1,8 +1,8 @@
 const ids=["filosofici", "giuridici", "napoli","atene", 
 "Orazio", "morte", "letterato", "litigio",
- "raccomandazione", "prigione", "politica", "avvocato", 
+ "amicizia", "prigione", "politica", "avvocato", 
  "consolato", "pretura","tradimento","fedeltà" ,
-"Britannia","Siria","suicidio","pretura2","mediazione",
+"Britannia","Siria","suicidio","arresto","mediazione",
 "repressione","uccisione","misericordia","felicità",
 "marcia","accordo"];
 const buttons= document.getElementsByClassName('btn btn-primary btn-block');
@@ -16,14 +16,8 @@ function studi(){
 		window.scrollTo(0,document.body.scrollHeight);
 	}
 }
-/*
-function verify(){
-	if (a!==b){
-		alert("qualcosa è andato storto");
-		window.location.href="index.html";
-	}
-}
-*/
+
+
 function disableeven(num){
 	buttons[num+1].disabled=true;
 	buttons[num+1].style.background='black';
