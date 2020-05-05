@@ -7,7 +7,8 @@ const ids=["filosofici", "giuridici", "napoli","atene",
 "marcia","accordo"];
 const buttons= document.getElementsByClassName('btn btn-primary btn-block');
 const a=ids.length;
-const b=buttons.length;
+console.log(a);
+console.log(buttons);
 
 function studi(){
 	const x=document.getElementById("studi");
