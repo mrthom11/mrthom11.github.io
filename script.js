@@ -2,8 +2,8 @@ const ids=["filosofici", "giuridici", "napoli","atene",
 "Orazio", "morte", "letterato", "litigio",
  "amicizia", "prigione", "politica", "avvocato", 
  "consolato", "pretura","tradimento","fedeltà" ,
-"Britannia","Siria","suicidio","arresto","mediazione",
-"repressione","uccisione","misericordia","felicità",
+"Britannia","Siria","suicidio","arresto",
+"mediazione","repressione","uccisione","misericordia",
 "marcia","accordo"];
 const buttons= document.getElementsByClassName('btn btn-primary btn-block');
 const a=ids.length;
@@ -19,12 +19,12 @@ function studi(){
 
 
 
-function disableeven(num){
+function disableodd(num){
 	buttons[num+1].disabled=true;
 	buttons[num+1].style.background='black';
 }
 
-function disableodd(num){
+function disableeven(num){
 	buttons[num-1].disabled=true;
 	buttons[num-1].style.background='black';
 }
@@ -36,10 +36,10 @@ function choice(num){
 			window.scrollTo(0,document.body.scrollHeight);
 		}
 		if (num%2===0){
-			disableeven(num);
+			disableodd(num);
 		}
 		else {
-			disableodd(num);
+			disableeven(num);
 		}
 	}
 
